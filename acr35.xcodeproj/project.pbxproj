@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C1E9E9501A26690100D8B173 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E9E94F1A26690100D8B173 /* AppDelegate.swift */; };
+		C1E9E9521A26690100D8B173 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E9E9511A26690100D8B173 /* ViewController.swift */; };
+		C1E9E9551A26690100D8B173 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1E9E9531A26690100D8B173 /* Main.storyboard */; };
+		C1E9E9571A26690100D8B173 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1E9E9561A26690100D8B173 /* Images.xcassets */; };
+		C1E9E95A1A26690100D8B173 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1E9E9581A26690100D8B173 /* LaunchScreen.xib */; };
+		C1E9E9661A26690100D8B173 /* acr35Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E9E9651A26690100D8B173 /* acr35Tests.swift */; };
+		C1E9E9811A26704D00D8B173 /* libAudioJack.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C1E9E97D1A266DA400D8B173 /* libAudioJack.a */; };
+		C1E9E9831A2670E500D8B173 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1E9E9821A2670E500D8B173 /* AudioToolbox.framework */; };
+		C1E9E9851A26715300D8B173 /* dummy.mm in Sources */ = {isa = PBXBuildFile; fileRef = C1E9E9841A26715300D8B173 /* dummy.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C1E9E9601A26690100D8B173 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1E9E9421A26690100D8B173 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1E9E9491A26690100D8B173;
+			remoteInfo = acr35;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C1E9E94A1A26690100D8B173 /* acr35.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = acr35.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1E9E94E1A26690100D8B173 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1E9E94F1A26690100D8B173 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C1E9E9511A26690100D8B173 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C1E9E9541A26690100D8B173 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C1E9E9561A26690100D8B173 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C1E9E9591A26690100D8B173 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C1E9E95F1A26690100D8B173 /* acr35Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = acr35Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1E9E9641A26690100D8B173 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1E9E9651A26690100D8B173 /* acr35Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = acr35Tests.swift; sourceTree = "<group>"; };
+		C1E9E9711A266DA400D8B173 /* ACRAesTrackData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACRAesTrackData.h; sourceTree = "<group>"; };
+		C1E9E9721A266DA400D8B173 /* ACRAudioJackReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACRAudioJackReader.h; sourceTree = "<group>"; };
+		C1E9E9731A266DA400D8B173 /* ACRCRC16.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACRCRC16.h; sourceTree = "<group>"; };
+		C1E9E9741A266DA400D8B173 /* ACRDukptReceiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACRDukptReceiver.h; sourceTree = "<group>"; };
+		C1E9E9751A266DA400D8B173 /* ACRDukptTrackData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACRDukptTrackData.h; sourceTree = "<group>"; };
+		C1E9E9761A266DA400D8B173 /* ACRResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACRResult.h; sourceTree = "<group>"; };
+		C1E9E9771A266DA400D8B173 /* ACRStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACRStatus.h; sourceTree = "<group>"; };
+		C1E9E9781A266DA400D8B173 /* ACRTrack1Data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACRTrack1Data.h; sourceTree = "<group>"; };
+		C1E9E9791A266DA400D8B173 /* ACRTrack2Data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACRTrack2Data.h; sourceTree = "<group>"; };
+		C1E9E97A1A266DA400D8B173 /* ACRTrackData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACRTrackData.h; sourceTree = "<group>"; };
+		C1E9E97B1A266DA400D8B173 /* AudioJack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioJack.h; sourceTree = "<group>"; };
+		C1E9E97C1A266DA400D8B173 /* AudioJackErrors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioJackErrors.h; sourceTree = "<group>"; };
+		C1E9E97D1A266DA400D8B173 /* libAudioJack.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAudioJack.a; sourceTree = "<group>"; };
+		C1E9E9801A266EE100D8B173 /* MyProject-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyProject-Bridging-Header.h"; sourceTree = "<group>"; };
+		C1E9E9821A2670E500D8B173 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		C1E9E9841A26715300D8B173 /* dummy.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = dummy.mm; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C1E9E9471A26690100D8B173 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1E9E9831A2670E500D8B173 /* AudioToolbox.framework in Frameworks */,
+				C1E9E9811A26704D00D8B173 /* libAudioJack.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1E9E95C1A26690100D8B173 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C1E9E9411A26690100D8B173 = {
+			isa = PBXGroup;
+			children = (
+				C1E9E9821A2670E500D8B173 /* AudioToolbox.framework */,
+				C1E9E9801A266EE100D8B173 /* MyProject-Bridging-Header.h */,
+				C1E9E96F1A266DA400D8B173 /* drivers */,
+				C1E9E94C1A26690100D8B173 /* acr35 */,
+				C1E9E9621A26690100D8B173 /* acr35Tests */,
+				C1E9E94B1A26690100D8B173 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C1E9E94B1A26690100D8B173 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C1E9E94A1A26690100D8B173 /* acr35.app */,
+				C1E9E95F1A26690100D8B173 /* acr35Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C1E9E94C1A26690100D8B173 /* acr35 */ = {
+			isa = PBXGroup;
+			children = (
+				C1E9E94F1A26690100D8B173 /* AppDelegate.swift */,
+				C1E9E9511A26690100D8B173 /* ViewController.swift */,
+				C1E9E9531A26690100D8B173 /* Main.storyboard */,
+				C1E9E9561A26690100D8B173 /* Images.xcassets */,
+				C1E9E9581A26690100D8B173 /* LaunchScreen.xib */,
+				C1E9E94D1A26690100D8B173 /* Supporting Files */,
+			);
+			path = acr35;
+			sourceTree = "<group>";
+		};
+		C1E9E94D1A26690100D8B173 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C1E9E94E1A26690100D8B173 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C1E9E9621A26690100D8B173 /* acr35Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C1E9E9651A26690100D8B173 /* acr35Tests.swift */,
+				C1E9E9631A26690100D8B173 /* Supporting Files */,
+			);
+			path = acr35Tests;
+			sourceTree = "<group>";
+		};
+		C1E9E9631A26690100D8B173 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C1E9E9641A26690100D8B173 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C1E9E96F1A266DA400D8B173 /* drivers */ = {
+			isa = PBXGroup;
+			children = (
+				C1E9E9701A266DA400D8B173 /* AudioJack */,
+			);
+			path = drivers;
+			sourceTree = "<group>";
+		};
+		C1E9E9701A266DA400D8B173 /* AudioJack */ = {
+			isa = PBXGroup;
+			children = (
+				C1E9E9841A26715300D8B173 /* dummy.mm */,
+				C1E9E9711A266DA400D8B173 /* ACRAesTrackData.h */,
+				C1E9E9721A266DA400D8B173 /* ACRAudioJackReader.h */,
+				C1E9E9731A266DA400D8B173 /* ACRCRC16.h */,
+				C1E9E9741A266DA400D8B173 /* ACRDukptReceiver.h */,
+				C1E9E9751A266DA400D8B173 /* ACRDukptTrackData.h */,
+				C1E9E9761A266DA400D8B173 /* ACRResult.h */,
+				C1E9E9771A266DA400D8B173 /* ACRStatus.h */,
+				C1E9E9781A266DA400D8B173 /* ACRTrack1Data.h */,
+				C1E9E9791A266DA400D8B173 /* ACRTrack2Data.h */,
+				C1E9E97A1A266DA400D8B173 /* ACRTrackData.h */,
+				C1E9E97B1A266DA400D8B173 /* AudioJack.h */,
+				C1E9E97C1A266DA400D8B173 /* AudioJackErrors.h */,
+				C1E9E97D1A266DA400D8B173 /* libAudioJack.a */,
+			);
+			path = AudioJack;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C1E9E9491A26690100D8B173 /* acr35 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1E9E9691A26690100D8B173 /* Build configuration list for PBXNativeTarget "acr35" */;
+			buildPhases = (
+				C1E9E9461A26690100D8B173 /* Sources */,
+				C1E9E9471A26690100D8B173 /* Frameworks */,
+				C1E9E9481A26690100D8B173 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = acr35;
+			productName = acr35;
+			productReference = C1E9E94A1A26690100D8B173 /* acr35.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C1E9E95E1A26690100D8B173 /* acr35Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1E9E96C1A26690100D8B173 /* Build configuration list for PBXNativeTarget "acr35Tests" */;
+			buildPhases = (
+				C1E9E95B1A26690100D8B173 /* Sources */,
+				C1E9E95C1A26690100D8B173 /* Frameworks */,
+				C1E9E95D1A26690100D8B173 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1E9E9611A26690100D8B173 /* PBXTargetDependency */,
+			);
+			name = acr35Tests;
+			productName = acr35Tests;
+			productReference = C1E9E95F1A26690100D8B173 /* acr35Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C1E9E9421A26690100D8B173 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "FastBar Technologies, Inc.";
+				TargetAttributes = {
+					C1E9E9491A26690100D8B173 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					C1E9E95E1A26690100D8B173 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = C1E9E9491A26690100D8B173;
+					};
+				};
+			};
+			buildConfigurationList = C1E9E9451A26690100D8B173 /* Build configuration list for PBXProject "acr35" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C1E9E9411A26690100D8B173;
+			productRefGroup = C1E9E94B1A26690100D8B173 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C1E9E9491A26690100D8B173 /* acr35 */,
+				C1E9E95E1A26690100D8B173 /* acr35Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C1E9E9481A26690100D8B173 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1E9E9551A26690100D8B173 /* Main.storyboard in Resources */,
+				C1E9E95A1A26690100D8B173 /* LaunchScreen.xib in Resources */,
+				C1E9E9571A26690100D8B173 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1E9E95D1A26690100D8B173 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C1E9E9461A26690100D8B173 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1E9E9521A26690100D8B173 /* ViewController.swift in Sources */,
+				C1E9E9851A26715300D8B173 /* dummy.mm in Sources */,
+				C1E9E9501A26690100D8B173 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1E9E95B1A26690100D8B173 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1E9E9661A26690100D8B173 /* acr35Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C1E9E9611A26690100D8B173 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C1E9E9491A26690100D8B173 /* acr35 */;
+			targetProxy = C1E9E9601A26690100D8B173 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C1E9E9531A26690100D8B173 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1E9E9541A26690100D8B173 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C1E9E9581A26690100D8B173 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1E9E9591A26690100D8B173 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C1E9E9671A26690100D8B173 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		C1E9E9681A26690100D8B173 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C1E9E96A1A26690100D8B173 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = acr35/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/drivers/AudioJack",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MyProject-Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		C1E9E96B1A26690100D8B173 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = acr35/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/drivers/AudioJack",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MyProject-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		C1E9E96D1A26690100D8B173 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = acr35Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/acr35.app/acr35";
+			};
+			name = Debug;
+		};
+		C1E9E96E1A26690100D8B173 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = acr35Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/acr35.app/acr35";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C1E9E9451A26690100D8B173 /* Build configuration list for PBXProject "acr35" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1E9E9671A26690100D8B173 /* Debug */,
+				C1E9E9681A26690100D8B173 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1E9E9691A26690100D8B173 /* Build configuration list for PBXNativeTarget "acr35" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1E9E96A1A26690100D8B173 /* Debug */,
+				C1E9E96B1A26690100D8B173 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C1E9E96C1A26690100D8B173 /* Build configuration list for PBXNativeTarget "acr35Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1E9E96D1A26690100D8B173 /* Debug */,
+				C1E9E96E1A26690100D8B173 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C1E9E9421A26690100D8B173 /* Project object */;
+}
